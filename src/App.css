@@ -7,6 +7,11 @@
   position: relative;
 
 }
+
+* {
+  box-sizing: border-box;
+}
+
 nav ul li a {
  color: white;
 }
@@ -43,8 +48,39 @@ nav ul li a {
   justify-content: center;
   padding: 50px 0 25px;
   position: relative;
+  font-size: 35px;
 }
 .nav-link i {
  font-size: 32px; 
+}
+
+.eventsContainer {
+
+}
+
+.cardContainer {
+   text-align: center;
+   margin-bottom: 50px;
+   max-width: 60vw;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.cardTitle {
+  position: static;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 4px; 
+  font-weight: bold;
+
+}
+
+.cardDate {
+
+}
+
+.cardDesc {
+ margin: 20px 40px;
 }
 

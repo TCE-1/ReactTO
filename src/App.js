@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Banner, MainSpace} from './comps.js';
+import {Banner, MainSpace, Events} from './components/components.js';
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div className="body">
       <Banner />
       <MainSpace />
+      <Events />
     </div>
   );
 }

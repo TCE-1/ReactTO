@@ -1,4 +1,6 @@
 import React from 'react';
+import eventArr from './eventInfo.js'; 
+
 
 
 class Banner extends React.Component {
@@ -33,13 +35,35 @@ class MainSpace extends React.Component{
   render() {
     return (
       <div className="container">
-        Events / Meet-ups / Beers / Foosball?
-      
+        Events
       </div>
         
     )
   }
 }
 
-export {Banner, MainSpace};
+
+class Events extends React.Component{
+  render() {
+    return (
+      <div className="eventsContainer">
+        {eventArr.map(x => (
+          
+          <div className="cardContainer">
+            <div className="cardTitle">{x.title}</div>
+            <div className="cardDate">{x.date}</div>
+            <div className="cardDesc">{x.description}</div>
+            <hr />
+          </div>
+        )
+        )}
+
+      </div>
+        
+    )
+  }
+}
+
+
+export {Banner, MainSpace, Events};
 
