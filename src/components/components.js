@@ -64,6 +64,24 @@ class Events extends React.Component{
   }
 }
 
+class Footer extends React.Component{
+  render() {
+    return (
+      <div className="footer">
+          <div className="fLinkContainer">
+            <div className="fLinks">
+              <a className="nav-link" href="https://github.com/TCE-1"><i className="fa fa-rocket fa-spin" ></i>Learn more</a>
+            </div>
+            <div className="fLinks rLinks">
+              <a className="nav-link" href="https://github.com/TCE-1"><i className="fa fa-github" ></i>Created by Tony</a>
+            </div>
+          </div>
+      </div>
+        
+    )
+  }
+}
 
-export {Banner, MainSpace, Events};
+
+export {Banner, MainSpace, Events, Footer};
 

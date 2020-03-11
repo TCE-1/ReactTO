@@ -10,12 +10,15 @@
 
 * {
   box-sizing: border-box;
+  /*border: 1px solid black;*/
 }
 
 nav ul li a {
  color: white;
 }
 
+body {
+}
 .MainText {
 
   margin: 0 auto;
@@ -83,4 +86,26 @@ nav ul li a {
 .cardDesc {
  margin: 20px 40px;
 }
+.footer{
+  padding: 20px;
+  background-color: #000;
+  color: #fff; 
 
+}
+.fLinkContainer {
+  overflow: hidden 
+}
+.fLinks {
+  display: block;
+  position: relative;
+  width: 50%;
+  float: left;
+
+}
+.fLinks a {
+  
+  color: #d40808;
+}
+.rLinks {
+  text-align: right; 
+}
